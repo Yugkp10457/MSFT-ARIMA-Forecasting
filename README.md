@@ -28,8 +28,9 @@ Model Identification: Used ACF and PACF plots on the differenced returns to guid
 
 Training & Validation: The model was trained on the historical data and evaluated using RMSE/MAE on a 365-day test set.
 
-🚀 Next Steps (Future Work)
-The model's high error rate proves the need to transition to techniques that handle financial non-linearity and memory effects:
+🚀 Next Steps:
+
+The model's high error rate proves the need to transition to techniques that handle financial non-linearity and memory effects.
 
 Deep Learning (LSTM): Implementing a Long Short-Term Memory (LSTM) network to capture non-linear dependencies and long-term memory effects.
 
