@@ -20,9 +20,7 @@ Mean Absolute Error (MAE): The MAE is $35.05. This means the forecast was, on av
 
 🔍 Methodology Summary
 
-Data Acquisition & Preparation: 
-
-Used the yfinance library to retrieve daily stock prices, followed by cleaning and date-time indexing.
+Data Acquisition & Preparation: Used the yfinance library to retrieve daily stock prices, followed by cleaning and date-time indexing.
 
 Stationarity: Verified non-stationarity using the ADF Test, necessitating first-order differencing ($d=1$) to stabilize the data.
 
