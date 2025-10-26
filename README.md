@@ -1,5 +1,5 @@
 # MSFT-ARIMA-Forecasting
-Time Series Analysis and Forecasting of Microsoft ($MSFT) Stock Prices using the ARIMA model
+Time Series Analysis and Forecasting of Microsoft (MSFT) Stock Prices using the ARIMA model
 
 🎯 Project Overview & Goal
 
@@ -18,7 +18,9 @@ Root Mean Squared Error (RMSE): The RMSE is $49.01. This represents the typical 
 
 Mean Absolute Error (MAE): The MAE is $35.05. This means the forecast was, on average, off by over $35 per share.
 
-🔍 Methodology SummaryData Acquisition & Preparation: 
+🔍 Methodology Summary
+
+Data Acquisition & Preparation: 
 
 Used the yfinance library to retrieve daily stock prices, followed by cleaning and date-time indexing.
 Stationarity: Verified non-stationarity using the ADF Test, necessitating first-order differencing ($d=1$) to stabilize the data.
